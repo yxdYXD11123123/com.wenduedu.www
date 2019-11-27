@@ -1,0 +1,436 @@
+.banner-left {
+    float: left;
+    width: 148px;
+    height: 474px;
+    background-color: aqua;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-top: none;
+    background-color: #fbfbfb;
+}
+
+.banner-left li {
+    position: relative;
+    line-height: 33px;
+    text-align: center;
+}
+
+.banner-left img {
+    position: absolute;
+    top: 8px;
+    left: 21px;
+}
+
+.banner-middle {
+    float: left;
+    margin: 0 18px;
+    margin-top: 20px;
+}
+
+.banner-middle-bottom {
+    border: 1px solid #eeeeee;
+    margin-top: 22px;
+}
+
+.banner-middle-bottom a:nth-child(1),
+.banner-middle-bottom a:nth-child(5) {
+    float: left;
+    width: 24px;
+    height: 147px;
+    text-align: center;
+}
+
+.banner-middle-bottom a:nth-child(1) img,
+.banner-middle-bottom a:nth-child(5) img {
+    margin-top: 56px;
+}
+
+.banner-middle-bottom a:nth-child(2),
+.banner-middle-bottom a:nth-child(3),
+.banner-middle-bottom a:nth-child(4) {
+    float: left;
+    width: 224px;
+    height: 147px;
+    border-right: 1px solid #eeeeee;
+}
+.banner-middle-bottom a:nth-child(4) {
+    border: none;
+}
+
+
+.banner-right {
+    float: right;
+    width: 292px;
+    margin-top: 20px;
+}
+
+.banner-right-top {
+    width: 292px;
+    height: 143px;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+}
+
+.banner-right-top-title {
+    width: 292px;
+}
+
+.banner-right-top-title a {
+    float: left;
+    height: 33px;
+    line-height: 33px; 
+    padding: 0 6px;
+    border-bottom: 1px solid #ededed;
+    color: #999999;
+    background-color: #fbfbfb;
+}
+
+.banner-right-top-title a:first-child {
+    color: #333333;
+    border-right: 1px solid #ededed;
+    border-bottom: none;
+    background-color: white;
+}
+.banner-right-top-title a:last-child {
+    padding-right: 18px;
+}
+
+.banner-right-top-content ul {
+    margin-top: 10px;
+}
+
+.banner-right-top-content ul:first-child {
+    float: left;
+    line-height: 20px;
+    margin-left: 15px;
+}
+.banner-right-top-content ul:last-child {
+    float: right;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.banner-right-middle {
+    margin-top: 18px;
+}
+
+.banner-right-middle-photo img {
+    float: left;
+}
+
+.banner-right-middle-photo p {
+    float: left;
+    margin-left: 16px;
+    margin-top: 5px;
+    color: #0054a7;
+}
+
+.banner-right-middle-photo p em {
+    color: #ff8a00;
+}
+
+.banner-right-middle-photo p strong {
+    line-height: 33px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.banner-right-middle-button {
+    margin-top: 18px;
+}
+
+.banner-right-middle-button a {
+    float: left;
+    height: 37px;
+    width: 83px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 14px;
+    background-color: #ff8a00;
+    color: white;
+    margin-right: 8px ;
+}
+
+.banner-right-middle-button a:last-child {
+     width: 102px;
+}
+
+.banner-right-middle-button a img {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.banner-right-bottom {
+    margin-top: 19px;
+}
+
+.banner-right-bottom-title {
+    font-size: 16px;
+    font-family: "SimSun";
+    color: black;
+    font-weight: 700 ;
+}
+
+.banner-right-bottom-content {
+    margin-top: 10px;
+}
+
+.banner-right-bottom-content a {
+    float: left;
+    width: 64px;
+    height: 64px;
+    background-color: #f1f1f1;
+    margin-right: 12px;
+    text-align: center;
+    color: #666666;
+}
+
+.banner-right-bottom-content a:nth-child(-n+4) {
+    margin-bottom: 12px;
+}
+
+.banner-right-bottom-content a:nth-child(4),
+.banner-right-bottom-content a:nth-child(8) {
+    margin-right: 0px;
+}
+
+.banner-right-bottom-content img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+/* 考研栏 */
+.graduate {
+    margin-top: 30px;
+}
+
+.graduate-top {
+    height: 36px;
+}
+
+.graduate-top {
+    position: relative;
+    background-image: url(../img/graduate_top.png);
+    background-repeat: no-repeat;
+}
+
+.graduate-top-left {
+    float: left;
+    width: 472px;
+}
+
+.graduate-top-left div {
+    float: right;
+    margin-top: 18px;
+}
+
+.graduate-top-left div em,
+.graduate-top-right div em {
+    color: #999999;
+    font-size: 14px;
+}
+
+.graduate-top-left div a {
+    font-size: 14px;
+    font-family: "SimSun";
+    color: #333333;
+}
+
+.graduate-top-left div a:nth-child(1) {
+    margin-right: 15px;
+}
+
+.graduate-top-left div a:nth-child(3) {
+    margin-left: 15px;
+}
+
+.graduate-top-right {
+    float: right;
+    width: 472px;
+}
+
+.graduate-top-right div {
+    margin-top: 18px;
+}
+
+.graduate-top-right div a {
+    font-size: 14px;
+    font-family: "SimSun";
+    color: #333333;
+}
+
+.graduate-top-right div a:nth-child(1) {
+    margin-right: 15px;
+}
+
+.graduate-top-right div a:nth-child(3) {
+    margin-left: 15px;
+}
+
+.graduate-top-right div {
+    float: center;
+}
+
+.graduate-top h2 {
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    margin-left: -40px;
+    font-size: 35px;
+    font-family: "MicrosoftYaHei";
+    line-height: 35px;
+    color: black;
+}
+
+.graduate-top h2 em:nth-child(1) {
+    color: #cc0000;
+}
+
+.graduate-content {
+    margin-top: 22px;
+}
+
+.graduate-recommend {
+    float: left;
+    width: 398px;
+    height: 434px;
+    border-right: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.graduate-recommend h3,
+.graduate-free-title {
+    line-height: 52px;
+    font-size: 14px;
+}
+
+.graduate-recommend-product p:nth-child(2) {
+    font-size: 18px;
+    font-family: "AiralMT,SimSun";
+    margin-top: 10px;
+}
+
+.graduate-recommend-product p:nth-child(3) {
+    margin-top: 5px;
+}
+
+.graduate-recommend-product p:nth-child(3) em {
+    font-size: 24px;
+    color: #e6393b;
+    font-weight: normal;
+}
+
+.graduate-recommend-product p:nth-child(3) small {
+    font-size: 12px;
+    color: #666666;
+    margin-left: 8px;
+}
+
+.graduate-recommend-product p:nth-child(3) i {
+    color: #999999;
+    margin-left: 30px;
+}
+
+.graduate-recommend-product p:nth-child(3) a {
+    display: inline-block;
+    width: 101px;
+    height: 30px;
+    background-color: #3eb134;
+    vertical-align: text-bottom;
+    box-sizing: border-box;
+    background-image: url(../img/graduate_recommend_free.png);
+    background-repeat: no-repeat;
+    background-position: 9px center;
+    padding-left: 37px;
+    line-height: 30px;
+    color: white;
+    margin-left: 70px;
+}
+
+.graduate-recommend-bottom {
+    margin-top: 10px;
+    border-top: 1px solid #ebebeb;
+}
+
+.graduate-recommend-bottom ul {
+    width: 377px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.graduate-recommend-bottom li {
+    height: 26px;
+}
+
+.graduate-recommend-bottom a {
+    display: block;
+    line-height: 26px;
+    font-size: 14px;
+    padding-left: 42px;
+    box-sizing: border-box;
+    background-image: url(../img/icon-vedio.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;;
+}
+
+.graduate-recommend-bottom i {
+    float: right;
+}
+
+.graduate-free {
+    float: left;
+    width: 278px;
+    height: 434px;
+    border-top: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.graduate-free-content h4 {
+    font-size: 18px;   
+    font-weight: normal;
+    line-height: 38px;
+}
+
+.graduate-free-content p s:nth-child(1){
+    font-size: 22px;  
+    color: #666666;
+}
+
+.graduate-free-content p s:last-child,
+.graduate-free-content p s:nth-child(2) {
+    color: #666666;
+}
+
+.graduate-free-content p s:nth-child(2) {
+    margin-left: 8px;
+}
+
+.graduate-free-content p s:nth-child(3) {
+    color: #999999;
+    margin-left: 25px;
+}
+
+.graduate-free-content p img {
+    vertical-align: text-top;
+    margin-left: 30px;
+}
+
+.graduate-free ul {
+    border-top: 1px solid #ededed;
+    margin-top: 14px;
+    padding-top: 10px;
+}
+
+.graduate-free ul li {
+    background-image: url(../img/graduate_free_list.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 8px;
+    line-height: 26px;
+    font-size: 14px;
+}
