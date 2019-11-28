@@ -1,3 +1,296 @@
+/* 顶部导航栏 */
+.topnav {
+    height: 44px;
+    background-color: #0054a7;
+}
+
+.topnav-left {
+    float: left;
+}
+
+.topnav-left span,
+.topnav-left a {
+    float: left;
+    color: white;
+    line-height: 44px;
+    font-family: "SimSun";
+}
+
+.topnav-left a:nth-child(2) {
+    width: 70px;
+    text-align: center;
+    background-image: url(../img/topnav_back.png);
+    margin-left: 30px;
+}
+
+.topnav-left a:nth-child(2):hover {
+    background-color: #00366d;
+}
+
+.topnav-left a:nth-child(3) {
+    margin-left: 20px;
+}
+
+.topnav-right {
+    float: right;
+    width: 451px;
+    background-image: url(../img/topnav_right.png);
+}
+
+.topnav-right a {
+    float: left;
+    line-height: 44px;
+    color: white;
+}
+
+.topnav-right a:nth-child(-n+3) {
+    padding: 0px 9px;
+    margin-left: 2px;
+}
+
+.topnav-right a:nth-child(-n+3):hover {
+    background-color: #00366d;
+}
+
+.topnav-right a:nth-last-child(-n+5) {
+    margin-left: 2px;
+    width: 47px;
+    height: 44px;
+    text-align: center;
+}
+
+.topnav-right a:nth-last-child(-n+5):hover {
+    background-color: #00366d;
+}
+
+.topnav-right a:nth-last-child(-n+5) img {
+    vertical-align: middle;
+}
+
+.topnav-right a:nth-last-child(4) {
+    position: relative;
+}
+
+.topnav-right a:nth-last-child(4):before {
+    content: "13";
+    position: absolute;
+    top: 7px;
+    left: 25px;
+    display: block;
+    width: 20px;
+    height: 15px;
+    background-color: #ff8c14;
+    line-height: 15px;
+    border-radius: 7px 7px 7px 7px / 6px  6px 6px 6px;
+}
+
+/* 搜索栏 */
+.search {
+    height: 108px;
+}
+
+.search >.container >a:nth-child(1) {
+    float: left;
+    margin-top: calc( (108px - 53px) / 2);
+}
+
+.search-middle {
+    float: left;
+}
+
+.search-middle-top {
+    margin-top: 35px;
+    margin-left: 156px;
+}
+
+.search-middle-top div:nth-child(1) {
+    display: inline-block;
+    width: 484px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 3px solid #0054a7;
+    font-size: 0px;
+}
+
+.search-middle-top > a {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.4em;
+    margin-left: 8px;
+}
+
+.search-middle-top div:nth-child(1) button{
+    border: none;
+    vertical-align: top;
+}
+.search-middle-top div:nth-child(1) button:nth-child(1) {
+    width: 81px;
+    height: 32px;
+    background-color: #f6f6f6;
+    border-right: 1px solid #ededed;
+}
+
+.search-middle-top div:nth-child(1) button:nth-child(3) {
+    width: 89px;
+    height: 32px;
+    background-color: #0054a7;
+    color: white;
+    font-size: 14px;
+}
+
+.search-middle-top button:nth-child(1) img {
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+.search-middle-top input {
+    border: none;
+    line-height: 32px;
+    margin-right: 150px;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+
+.search-middle-bottom {
+    margin-top: 7px;
+    margin-left: 156px;
+}
+
+.search-middle-bottom a {
+    color: #666666;
+    margin-right: 12px;
+}
+
+.search-right {
+    float: right;
+    margin-top: 42px;
+}
+
+.search-right a {
+    position: relative;
+    float: left;
+    width: 90px;
+    height: 26px;
+}
+
+
+.search-right a:nth-child(1) s {
+    color: #ff8c14;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.search-right a:nth-child(1) p:nth-child(2) {
+    font-weight: 700;
+}
+
+.search-right a:nth-child(1) img,
+.search-right a:nth-child(2) img:nth-child(3) {
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+}
+
+.search-right a:nth-child(2) i {
+    vertical-align: bottom;
+} 
+
+.search-right a:nth-child(2) {
+    position: relative;
+    margin-left: 20px;
+}
+
+.search-right a:nth-child(2)::before {
+    position: absolute;
+    content: "0";
+    display: block;
+    top: -1px;
+    left: 20px;
+    color: #ff8c14;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* 菜单导航栏 */
+.tablenav {
+    width: 100%;
+    height: 59px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #0054a7;
+    overflow: hidden;
+}
+
+.tablenav-left {
+    float: left;
+    width: 148px;
+    height: 45px;
+    background-color: #0054a7;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.tablenav-middle {
+    float: left;
+}
+
+.tablenav-middle a {
+    float: left;
+    width: 93px;
+    height: 55px;
+    text-align: center;
+    background-image: url(../img/tablenav_backline.png);
+    background-repeat: no-repeat;
+    background-position: 92px 0px;
+}
+
+
+.tablenav-middle a img {
+    margin-top: 5px;
+}
+
+.tablenav-middle a p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: "SimSun";
+    color: #535353;
+}
+
+.tablenav-middle a:nth-child(1) p {
+    color: #ff8c14;
+}
+
+.tablenav-right {
+    float: right;
+}
+
+.tablenav-right p:nth-child(1) {
+    font-size: 27px;
+    line-height: 20px;
+    color: #00acde;
+    font-family: "ArialMT";
+}
+
+.tablenav-right p:nth-child(2) {
+    font-size: 14px;
+    color: #999999;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.tablenav-right p:nth-child(2) em {
+    float: left;
+}
+
+.tablenav-right p:nth-child(2) s {
+    float: right;
+}
+
+/* 内容栏 */
 .banner-left {
     float: left;
     width: 148px;
@@ -302,7 +595,8 @@
 }
 
 .graduate-recommend h3,
-.graduate-free-title {
+.graduate-free-title,
+.graduate-answer h3 {
     line-height: 52px;
     font-size: 14px;
 }
@@ -433,4 +727,153 @@
     padding-left: 8px;
     line-height: 26px;
     font-size: 14px;
+}
+
+.graduate-answer {
+    float: left;
+    width: 191px;
+    height: 436px;
+    padding: 0 20px;
+    border: 1px solid #ededed;
+    border-left: none;
+    box-sizing: border-box;
+}
+
+.graduate-answer ul {
+    position: relative;
+}
+
+.graduate-answer ul:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 360px;
+    left: 65px;
+    top: 0px;
+    border-left: 1px dashed #ebebeb;
+    box-sizing: border-box;
+}
+
+.graduate-answer ul li {
+    position: relative;
+}
+
+.graduate-answer ul a:before {
+    position: absolute;
+    top: 21px;
+    left: 61px;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 2px solid #e6e6e6;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.graduate-answer ul a:hover:before {
+    border-color: #ff9900;
+}
+
+.graduate-answer ul li:nth-last-child(-n+3) {
+    margin-top: 22px;
+}
+
+.graduate-answer h3 a {
+    margin-left: 73px;
+}
+
+.graduate-answer h3 img {
+    vertical-align: text-top;
+}
+
+.graduate-answer-person {
+    float: left;
+}
+
+.graduate-answer-person h5 {
+    color: #999999;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.graduate-answer-question {
+    float: right;
+    width: 68px;
+    height: 52px;
+    overflow: hidden;
+}
+
+.graduate-answer-question p:nth-child(1) {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #5093d5;
+    font-size: 14px;
+}
+
+.graduate-answer-question p:nth-child(2) {
+    color: #999999;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.graduate-more {
+    float: left;
+    width: 291px;
+    height: 436px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.graduate-more-title {
+    border-bottom: 4px solid #f6f6f6;
+    height: 56px;
+    box-sizing: border-box;
+}
+
+.graduate-more-title button {
+    background-color: white;
+    border: none;
+    line-height: 52px;
+    font-size: 14px;
+    margin-right: 11px;
+}
+
+.graduate-more-title button:hover {
+    border-bottom: 4px solid #e4e4e4;
+}
+
+.graduate-more-content > a {
+    display: block;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 20px;
+    padding-left: 3px;
+}
+
+.graduate-more-content > a h3 {
+    font-size: 18px;
+}
+
+.graduate-more-content > a p {
+    margin-top: 8px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.graduate-more-content ul {
+    padding-top: 15px;
+}
+
+.graduate-more-content ul li {
+    padding-left: 16px;
+    background-image: url(../img/graduate_free_list.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    line-height: 26px;
 }
